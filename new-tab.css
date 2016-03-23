@@ -12,15 +12,18 @@ main {
     margin-bottom: 50px;
 }
 
-main span {
-    font-size: 14px;
+main h1 {
+    font-size: 76px;
+    margin: 0;
 }
 
+/*
 .logo {
   float:center;
   opacity:0.8;
   height: 100px;
 }
+*/
 
 .search-box {
     width: 525px;
@@ -36,6 +39,23 @@ main span {
 }
 .search-box:focus {
     outline-width: 0;
+}
+
+.search-box::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #3e4e3e;
+}
+.search-box::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #3e4e3e;
+   opacity:  1;
+}
+.search-box:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color:    #3e4e3e;
+}
+
+
+
+main span {
+    font-size: 14px;
 }
 
 .table {
