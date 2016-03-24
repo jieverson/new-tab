@@ -1,5 +1,5 @@
 body {
-    background: #1e1e1e;
+    background: #1E1E1E;
     color: #558B3D;
     font-family: 'Ubuntu Mono';
     font-size: 14px;
@@ -34,14 +34,14 @@ main h1 {
 }
 
 .search-box::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #3e4e3e;
+    color: rgba(84, 138, 61, 0.35);
 }
 .search-box::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #3e4e3e;
-   opacity:  1;
+    color: rgba(84, 138, 61, 0.5);
+    opacity:  1;
 }
 .search-box:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
-  color:    #3e4e3e;
+    color: rgba(84, 138, 61, 0.5);
 }
 
 
@@ -66,27 +66,25 @@ main span {
     vertical-align: middle;
 }
 
-nav {
-    
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
 }
 
+/*
 nav ul strong {
     font-size: 16px;
 }
+*/
 
 nav ul a {
-    color: #558B3D;
+    color: rgba(84, 138, 61, 0.5);
     text-decoration: none;
     line-height: 200%;
 }
 
 nav ul a:visited {
-    color: #558B3D;
+    color: rgba(84, 138, 61, 0.5);
 }
 
 .character {
